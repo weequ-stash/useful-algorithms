@@ -74,5 +74,3 @@ int MST(int x, int n) {
     }
     return mst_cost;
 }
-
-*/
