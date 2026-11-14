@@ -1,5 +1,3 @@
-/*
-
 // Napisz program znajdujący najdłuższy prefiks wzorca będący podsłowem tekstu.
 //
 // W pierwszym wierszu wejścia znajdują się dwie liczby m - długość wzorca oraz n - długość tekstu (m <= n <= 1000000).
@@ -89,5 +87,3 @@ int main() {
 
     return 0;
 }
-
-*/

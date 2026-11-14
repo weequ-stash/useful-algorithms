@@ -1,5 +1,3 @@
-/*
-
 vector<int> rep;
 vector<int> vsize;
 int scc;           // liczba spojnych skladowych grafu
@@ -56,5 +54,3 @@ int main() {
     }
     return 0;
 }
-
-*/

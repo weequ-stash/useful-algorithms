@@ -1,4 +1,3 @@
-/*
 // --- BINSEARCH: ---
 
 // vector<int> v(n);
@@ -35,17 +34,17 @@ int binsearch_upper(int x, vector<int>& v) {
 
 // --- BFS: ---
 
-const int inf = 1e8;
-
-vector<vector<int>> t;
-vector<bool> vis;
-vector<int> dist;
-
-void prepare_arrays(int n) {
-    t.assign(n, {});
-    vis.assign(n, 0);
-    dist.assign(n, inf);
-}
+//const int inf = 1e8;
+//
+// vector<vector<int>> t;
+// vector<bool> vis;
+// vector<int> dist;
+//
+//void prepare_arrays(int n) {
+//    t.assign(n, {});
+//    vis.assign(n, 0);
+//    dist.assign(n, inf);
+//}
 
 void bfs(int x, int n) {
     queue<int> q;
@@ -104,5 +103,3 @@ int LCS(string a, string b, string& s) {
 
     return dp[n][m];
 }
-
-*/

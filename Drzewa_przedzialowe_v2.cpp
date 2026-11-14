@@ -1,6 +1,7 @@
+//#include <bits/stdc++.h>
+//using namespace std;
+
 // Range Add + Range Query (max)
-#include <bits/stdc++.h>
-using namespace std;
 
 struct SegmentTree_RangeRange {
     int n;

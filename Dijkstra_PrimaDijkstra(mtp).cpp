@@ -1,18 +1,16 @@
-/*
-
 // --- Dijkstra: ---
 
-const int inf = INT_MAX;
-
-vector<vector<pair<int, int>>> t;
-vector<bool> vis;
-vector<int> dist;
-
-void prepare_arrays(int n) {
-    t.assign(n, {});
-    vis.assign(n, 0);
-    dist.assign(n, inf);
-}
+//const int inf = INT_MAX;
+//
+//vector<vector<pair<int, int>>> t;
+//vector<bool> vis;
+//vector<int> dist;
+//
+//void prepare_arrays(int n) {
+//    t.assign(n, {});
+//    vis.assign(n, 0);
+//    dist.assign(n, inf);
+//}
 
 void dijkstra(int x, int n) {
     priority_queue<pair<int, int>> pq;    //{-dist, i}
@@ -38,17 +36,17 @@ void dijkstra(int x, int n) {
 
 // --- Prima-Dijkstra (MST): ---
 
-const int inf = INT_MAX;
-
-vector<vector<pair<int, int>>> t;
-vector<bool> vis;
-vector<int> dist; // najtansze krawedzie
-
-void prepare_arrays(int n) {
-    t.assign(n, {});
-    vis.assign(n, 0);
-    dist.assign(n, inf);
-}
+//const int inf = INT_MAX;
+//
+//vector<vector<pair<int, int>>> t;
+//vector<bool> vis;
+//vector<int> dist; // najtansze krawedzie
+//
+//void prepare_arrays(int n) {
+//    t.assign(n, {});
+//    vis.assign(n, 0);
+//    dist.assign(n, inf);
+//}
 
 int MST(int x, int n) {
     priority_queue<pair<int, int>> pq;    // {-edge_weight, i}
